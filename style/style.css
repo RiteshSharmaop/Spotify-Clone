@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  /* background-color: black; */
+  /* color: white; */
+}
+
+.left {
+  width: 25vw;
+  padding: 5px;
+}
+/* .container{
+  height: 100vh;
+  width: 100vw;
+} */
+.right {
+  width: 75vw;
+
+}
+.logo {
+  width: 86px;
+}
+
+.home ul li {
+  display: flex;
+  gap: 20px;
+  width: 24px;
+  font-size: 16px;
+  list-style: none;
+  padding-top: 17px;
+  font-weight: bold;
+  align-items: end;
+}
+.library {
+  height: 65vh;
+  position: relative;
+}
+.library > .heading > .img-1 {
+  width: 24px;
+}
+.library > .heading {
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+  list-style: none;
+  font-weight: bold;
+  align-items: end;
+}
+.library > .heading > .plus-img {
+  width: 16px;
+  padding-left: 99px;
+}
+.heading{
+  position:relative;
+}
+.heading .plus-img{
+  position: absolute;
+  right: 10px;
+}
+/* .home .logo img{
+    margin: 10px 10px 1px 10px;
+} */
+.lib-footer {
+  /* display: flex; */
+  /* align-items: end; */
+  position: absolute;
+  color: white;
+  bottom: 0px;
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+}
+.lib-box span {
+  color: white;
+  padding: 10px 10px 15px 0px;
+  font-size: 11px;
+}
+.cookie > span{
+  font-size: 13px;
+}
+.lib-box {
+  padding: 5px;
+}
+.lib-eng-btn {
+  margin-top: 29px;
+}
+.world-logo {
+  width: 15px;
+  padding-right: 8px;
+  padding-left: 5px;
+}
+.lib-eng-btn > button {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 40px;
+  padding: 7px 7px 7px 5px;
+  height: 30px;
+  width: 90px;
+}
+.right {
+  margin: 10px 10px 11px -4px;
+}
+.nav {
+  display: flex;
+  padding-right: 5px;
+  border-radius: 7px 7px 0px 0px;
+  padding: 10px 23px 10px 23px;
+  /* justify-content: space-around; */
+  /* box-shadow: 0px 44px 1px rgba(255, 255, 255, 0.201); */
+  /* box-shadow: 
+  0px 0px 10px 5px rgba(255, 255, 255, 0.2),
+    0px 0px 10px 5px rgba(255, 255, 255, 0.62),
+    0px 0px 10px 5px rgba(0, 0, 0, 0.2),
+    0px 0px 10px 5px rgba(0, 0, 0, 0.2); shadow on left*/
+}
+.nav-btn {
+  width: 15px;
+  padding: 5px;
+}
+.nav-btnn {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+.nav > img {
+  display : flex;
+  margin: 5px;
+  padding: 8px;
+  align-items: center;
+  background-color: white;
+  border-radius: 50px;
+}
+.nav-btnn button {
+  font-weight: bolder;
+  padding: 5px;
+  width: 90px;
+  height: 40px;
+  font-size: 13px;
+  border: none;
+  border-radius: 30px;
+}
+
+.spotify-playlist{
+  padding-top: 10px;
+}
+.spotify-playlist > h1 {
+  font-size: 23px;
+}
