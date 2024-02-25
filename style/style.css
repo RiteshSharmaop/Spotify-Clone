@@ -14,13 +14,11 @@ body {
   width: 25vw;
   padding: 5px;
 }
-/* .container{
-  height: 100vh;
-  width: 100vw;
-} */
+
 .right {
   width: 75vw;
-
+  overflow: auto;
+  position: relative;
 }
 .logo {
   width: 86px;
@@ -55,10 +53,10 @@ body {
   width: 16px;
   padding-left: 99px;
 }
-.heading{
-  position:relative;
+.heading {
+  position: relative;
 }
-.heading .plus-img{
+.heading .plus-img {
   position: absolute;
   right: 10px;
 }
@@ -81,7 +79,7 @@ a {
   padding: 10px 10px 15px 0px;
   font-size: 11px;
 }
-.cookie > span{
+.cookie > span {
   font-size: 13px;
 }
 .lib-box {
@@ -132,7 +130,7 @@ a {
   justify-content: flex-end;
 }
 .nav > img {
-  display : flex;
+  display: flex;
   margin: 5px;
   padding: 8px;
   align-items: center;
@@ -149,9 +147,72 @@ a {
   border-radius: 30px;
 }
 
-.spotify-playlist{
+.spotify-playlist {
   padding-top: 10px;
+  box-shadow: inset 0 161px 170px -172px rgb(153 153 153 / 40%);
 }
 .spotify-playlist > h1 {
   font-size: 23px;
+}
+.card-container {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  max-height: 80vh;
+}
+.card {
+  padding: 15px;
+  width: 200px;
+  background-color: #161616;
+  border-radius: 5px;
+  position: relative;
+}
+.card:hover {
+  background-color: #2d2d2d;
+}
+
+.card > img {
+  width: 200px;
+  border-radius: 5px;
+  object-fit: contain;
+}
+.card > h2 {
+  padding-top: 10px;
+  font-size: 18px;
+}
+.card > p {
+  padding-top: 7px;
+  font-size: 15px;
+  color: hsl(0deg 0% 56.47%);
+}
+.card-plus > svg {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  padding: 10px 10px 10px 11px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1fdf64;
+  right: 22px;
+  top: 163px;
+  border: none;
+  /* opacity: 1;
+  transition: all 1s ease-in-out; */
+}
+.play-bar {
+  position: absolute;
+  bottom: 0px;
+  background-color: #1fdf64;
+  width: 98%;
+  padding: 10px;
+}
+
+.song-btn{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
