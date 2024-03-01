@@ -6,7 +6,7 @@
   font-family: "Roboto", sans-serif;
 }
 body {
-  /* background-color: black; */
+  background-color: black;
   /* color: white; */
 }
 
@@ -206,13 +206,47 @@ a {
 .play-bar {
   position: absolute;
   bottom: 0px;
-  background-color: #1fdf64;
+  background-color: #cfd6d1;
   width: 98%;
   padding: 10px;
 }
 
-.song-btn{
+.song-btn {
   display: flex;
   justify-content: center;
   gap: 10px;
+}
+.song-list ul {
+  /* padding:  0; */
+  margin: 20px 0;
+  overflow-y: scroll;
+  max-height: 35vh;
+  overflow-wrap: break-word;
+  
+}
+.song-list ul li {
+  list-style: none;
+  padding: 5px 0px;
+  overflow-wrap: break-word;
+  display: flex;
+  gap: 24px;
+  cursor: pointer;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 5px;
+}
+.song-list ul :hover{
+  background-color: #424242;
+}
+.play-now{
+  display: flex;
+  font-size: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 21px;
+}
+.play-now span{
+  padding-right: 10px;
 }
